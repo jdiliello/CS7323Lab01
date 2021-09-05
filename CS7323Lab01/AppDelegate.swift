@@ -1,13 +1,14 @@
 //
 //  AppDelegate.swift
-//  CS7323Lab01
+//  UserInterfaceExample
 //
-//  Created by Joseph DiLiello on 9/4/21.
+//  Created by Eric Larson on 9/2/20.
+//  Copyright © 2020 Eric Larson. All rights reserved.
 //
 
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 

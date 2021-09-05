@@ -11,8 +11,12 @@
 		D0ED4AC226E46748006257EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ED4AC126E46748006257EA /* SceneDelegate.swift */; };
 		D0ED4AC426E46748006257EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ED4AC326E46748006257EA /* ViewController.swift */; };
 		D0ED4AC726E46748006257EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0ED4AC526E46748006257EA /* Main.storyboard */; };
-		D0ED4AC926E4674B006257EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0ED4AC826E4674B006257EA /* Assets.xcassets */; };
 		D0ED4ACC26E4674B006257EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0ED4ACA26E4674B006257EA /* LaunchScreen.storyboard */; };
+		D0ED4ADC26E46A01006257EA /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED4AD626E46A01006257EA /* ImageModel.m */; };
+		D0ED4ADD26E46A01006257EA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ED4AD726E46A01006257EA /* TableViewController.swift */; };
+		D0ED4ADE26E46A01006257EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0ED4AD826E46A01006257EA /* Assets.xcassets */; };
+		D0ED4AE026E46A01006257EA /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ED4ADA26E46A01006257EA /* CollectionViewController.swift */; };
+		D0ED4AE126E46A01006257EA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ED4ADB26E46A01006257EA /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +25,15 @@
 		D0ED4AC126E46748006257EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D0ED4AC326E46748006257EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0ED4AC626E46748006257EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0ED4AC826E4674B006257EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0ED4ACB26E4674B006257EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0ED4ACD26E4674B006257EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0ED4AD326E46A00006257EA /* CS7323Lab01-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CS7323Lab01-Bridging-Header.h"; sourceTree = "<group>"; };
+		D0ED4AD426E46A00006257EA /* ImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
+		D0ED4AD626E46A01006257EA /* ImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
+		D0ED4AD726E46A01006257EA /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D0ED4AD826E46A01006257EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0ED4ADA26E46A01006257EA /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		D0ED4ADB26E46A01006257EA /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,19 @@
 		D0ED4ABE26E46748006257EA /* CS7323Lab01 */ = {
 			isa = PBXGroup;
 			children = (
+				D0ED4AD826E46A01006257EA /* Assets.xcassets */,
+				D0ED4ADB26E46A01006257EA /* CollectionViewCell.swift */,
+				D0ED4ADA26E46A01006257EA /* CollectionViewController.swift */,
+				D0ED4AD426E46A00006257EA /* ImageModel.h */,
+				D0ED4AD626E46A01006257EA /* ImageModel.m */,
+				D0ED4AD726E46A01006257EA /* TableViewController.swift */,
 				D0ED4ABF26E46748006257EA /* AppDelegate.swift */,
 				D0ED4AC126E46748006257EA /* SceneDelegate.swift */,
 				D0ED4AC326E46748006257EA /* ViewController.swift */,
 				D0ED4AC526E46748006257EA /* Main.storyboard */,
-				D0ED4AC826E4674B006257EA /* Assets.xcassets */,
 				D0ED4ACA26E4674B006257EA /* LaunchScreen.storyboard */,
 				D0ED4ACD26E4674B006257EA /* Info.plist */,
+				D0ED4AD326E46A00006257EA /* CS7323Lab01-Bridging-Header.h */,
 			);
 			path = CS7323Lab01;
 			sourceTree = "<group>";
@@ -98,6 +114,7 @@
 				TargetAttributes = {
 					D0ED4ABB26E46748006257EA = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -125,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0ED4ACC26E4674B006257EA /* LaunchScreen.storyboard in Resources */,
-				D0ED4AC926E4674B006257EA /* Assets.xcassets in Resources */,
+				D0ED4ADE26E46A01006257EA /* Assets.xcassets in Resources */,
 				D0ED4AC726E46748006257EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0ED4AE026E46A01006257EA /* CollectionViewController.swift in Sources */,
 				D0ED4AC426E46748006257EA /* ViewController.swift in Sources */,
 				D0ED4AC026E46748006257EA /* AppDelegate.swift in Sources */,
+				D0ED4AE126E46A01006257EA /* CollectionViewCell.swift in Sources */,
 				D0ED4AC226E46748006257EA /* SceneDelegate.swift in Sources */,
+				D0ED4ADD26E46A01006257EA /* TableViewController.swift in Sources */,
+				D0ED4ADC26E46A01006257EA /* ImageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F69WJ27LN4;
 				INFOPLIST_FILE = CS7323Lab01/Info.plist;
@@ -295,6 +317,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = SMU.CS7323Lab01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CS7323Lab01/CS7323Lab01-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F69WJ27LN4;
 				INFOPLIST_FILE = CS7323Lab01/Info.plist;
@@ -314,6 +339,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = SMU.CS7323Lab01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CS7323Lab01/CS7323Lab01-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

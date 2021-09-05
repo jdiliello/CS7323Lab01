@@ -1,8 +1,9 @@
 //
 //  SceneDelegate.swift
-//  CS7323Lab01
+//  UserInterfaceExample
 //
-//  Created by Joseph DiLiello on 9/4/21.
+//  Created by Eric Larson on 9/2/20.
+//  Copyright © 2020 Eric Larson. All rights reserved.
 //
 
 import UIKit
@@ -23,7 +24,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.
         // Release any resources associated with this scene that can be re-created the next time the scene connects.
-        // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
+        // The scene may re-connect later, as its session was not neccessarily discarded (see `application:didDiscardSceneSessions` instead).
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {
